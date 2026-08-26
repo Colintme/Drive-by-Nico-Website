@@ -162,14 +162,11 @@
     .nav-toggle{display:flex;}
 
     .mobile-menu{
-      display:block;
-      max-height:0;
-      overflow:hidden;
+      display:none;
       background:var(--panel);
       border-bottom:1px solid var(--line);
-      transition:max-height .25s ease;
     }
-    .mobile-menu.open{max-height:520px;}
+    .mobile-menu.open{display:block;}
     .mobile-menu-inner{
       padding:8px 24px 28px;
       display:flex;flex-direction:column;gap:.3em;
